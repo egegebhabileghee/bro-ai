@@ -3,38 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A.I. • Crypto Operator</title>
+    <title>A.I. — Operator</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
-        
-        :root {
-            --accent: #6366f1;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&amp;family=Inter:wght@400;500&amp;display=swap');
         
         body {
-            font-family: 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system_ui, -apple-system, sans-serif;
+            line-height: 1.7;
         }
         
-        .font-display {
-            font-family: 'Space Grotesk', 'Inter', sans-serif;
+        .font-serif {
+            font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+        }
+
+        .section-title {
+            font-family: 'EB Garamond', Georgia, serif;
+            font-size: 1.85rem;
             font-weight: 600;
+            letter-spacing: -0.01em;
+            color: #1f2937;
         }
 
-        .section-header {
-            font-size: 2.75rem;
-            line-height: 1.1;
-            font-weight: 600;
-            letter-spacing: -0.025em;
+        .nav-link {
+            color: #4b5563;
+            transition: color 0.1s ease;
+        }
+        
+        .nav-link:hover {
+            color: #111827;
         }
 
-        .glass {
-            background: rgba(255,255,255, 0.03);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(255,255,255, 0.08);
+        .body-text {
+            color: #374151;
+            font-size: 1.02rem;
+            line-height: 1.75;
         }
 
+        .classic-border {
+            border-color: #e5e7eb;
+        }
+
+        .subtle-divider {
+            border-color: #e5e7eb;
+        }
+    </style>
+</head>
+<body class="bg-[#f8f7f4] text-[#1f2937]">
+    <!-- Top Navigation -->
+    <nav class="border-b border-[#e5e7eb] bg-[#f8f7f4]">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-baseline gap-x-3">
+                    <span class="font-serif text-3xl font-semibold tracking-tight">A.I.</span>
+                </div>
+                
+                <div class="flex items-center gap-x-8 text-sm">
+                    <a href="#note" class="nav-link">Note</a>
+                    <a href="#record" class="nav-link">Record</a>
+                    <a href="#principles" class="nav-link">Principles</a>
+                    <a href="#focus" class="nav-link">Focus</a>
+                    <a href="https://x.com/socallmebroai" target="_blank" 
+                       class="flex items-center gap-x-2 text-sm font-medium text-[#374151] hover:text-black">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span>X</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="max-w-4xl mx-auto px-6 pt-16 pb-12">
+        <div class="max-w-2xl">
+            <div class="uppercase tracking-[3px] text-xs text-[#6b7280] mb-3">YOGYAKARTA, INDONESIA</div>
+            
+            <h1 class="font-serif text-7xl font-semibold tracking-[-1.5px] leading-none mb-4">A.I.</h1>
+            
+            <p class="text-2xl text-[#374151] tracking-tight">Independent operator exploring on-chain capital allocation.</p>
+        </div>
+    </header>
+
+    <!-- Operator's Note -->
+    <section id="note" class="max-w-4xl mx-auto px-6 pb-16">
+        <div class="max-w-3xl">
+            <h2 class="section-title mb-6">Operator’s Note</h2>
+            
+            <div class="body-text space-y-6">
+                <p>I am an independent crypto investor and trader. My work centers on understanding how blockchains can improve capital allocation, execution, and ownership structures over the long term.</p>
+                
+                <p>I prefer clarity over complexity. I aim to allocate capital with high conviction in areas I understand deeply, while maintaining full transparency about both results and process.</p>
+                
+                <p>This site exists as a simple record of where I stand and what I am focused on.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto px-6">
+        <hr class="subtle-divider">
+    </div>
+
+    <!-- Track Record -->
+    <section id="record" class="max-w-4xl mx-auto px-6 py-16">
+        <div class="max-w-3xl">
+            <h2 class="section-title mb-8">Track Record &amp; Lessons</h2>
+            
+            <div class="body-text space-y-7">
+                <p>I have experienced both strong periods of growth and significant setbacks. In one cycle I reached a peak in net asset value, followed by a drawdown of approximately 98%. The recovery back to break-even came through focused, high-conviction decisions rather than broad exposure.</p>
+                
+                <p>Along the way I also made several NFT trades. Some of these were driven more by narrative and enthusiasm than by durable fundamentals. They proved expensive but useful reminders about the difference between temporary excitement and lasting value.</p>
+                
+                <p>These experiences reinforced several practical lessons: the importance of position sizing, the cost of emotional decisions, and the value of staying within one’s circle of competence. I intend to carry these lessons forward if I manage capital for others.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto px-6">
+        <hr class="subtle-divider">
+    </div>
+
+    <!-- Principles -->
+    <section id="principles" class="max-w-4xl mx-auto px-6 py-16">
+        <div class="max-w-3xl">
+            <h2 class="section-title mb-8">Operating Principles</h2>
+            
+            <div class="space-y-8 text-[15.5px]">
+                <div>
+                    <div class="font-medium mb-2">Clarity over cleverness</div>
+                    <p class="text-[#4b5563]">I prefer straightforward structures and language. Complex instruments or narratives that require constant explanation usually signal unnecessary risk.</p>
+                </div>
+                
+                <div>
+                    <div class="font-medium mb-2">Skin in the game</div>
+                    <p class="text-[#4b5563]">Alignment matters. Any capital I manage will be alongside my own.</p>
+                </div>
+                
+                <div>
+                    <div class="font-medium mb-2">Long-term orientation</div>
+                    <p class="text-[#4b5563]">I am interested in protocols and markets that can compound in usefulness over many years, not quarters.</p>
+                </div>
+                
+                <div>
+                    <div class="font-medium mb-2">Transparency as default</div>
+                    <p class="text-[#4b5563]">Performance, process, and mistakes should be discussable. Hidden track records create hidden risks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto px-6">
+        <hr class="subtle-divider">
+    </div>
+
+    <!-- Focus Areas -->
+    <section id="focus" class="max-w-4xl mx-auto px-6 py-16">
+        <div class="max-w-3xl">
+            <h2 class="section-title mb-8">Current Areas of Focus</h2>
+            
+            <div class="body-text space-y-8">
+                <div>
+                    <div class="font-medium text-[#1f2937] mb-1.5">Real-time execution and scaling infrastructure</div>
+                    <p class="text-[#4b5563]">Interest in chains and systems designed for low-latency, high-throughput on-chain activity.</p>
+                </div>
+                
+                <div>
+                    <div class="font-medium text-[#1f2937] mb-1.5">On-chain financial primitives</div>
+                    <p class="text-[#4b5563]">Perpetuals, options, and real-world assets. Focus on how these can be structured with better capital efficiency and clearer risk.</p>
+                </div>
+                
+                <div>
+                    <div class="font-medium text-[#1f2937] mb-1.5">Internet Capital Markets and on-chain governance</div>
+                    <p class="text-[#4b5563]">Mechanisms for raising and allocating capital directly on-chain, including DAO structures and futarchy-style decision making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision / Capital -->
+    <section class="max-w-4xl mx-auto px-6 pb-16">
+        <div class="max-w-3xl">
+            <h2 class="section-title mb-8">On Managing External Capital</h2>
+            
+            <div class="body-text">
+                <p>I am exploring the possibility of managing external capital on a discretionary basis through a modest-sized vehicle. The initial target scale is small. The priority is maintaining full discretion while operating with complete transparency.</p>
+                
+                <p class="mt-6">I am open to both traditional structures and crypto-native approaches, provided they allow clear decision-making and honest reporting to participants.</p>
+            </div>
+            
+            <div class="mt-10">
+                <a href="https://x.com/socallmebroai" target="_blank"
+                   class="inline-flex items-center gap-x-2 text-sm font-medium px-5 py-3 border border-[#d1d5db] rounded-xl hover:bg-white transition-colors">
+                    <span>Connect on X</span>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#e5e7eb] py-10">
+        <div class="max-w-4xl mx-auto px-6 text-sm text-[#6b7280]">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-y-2">
+                <div>
+                    A simple personal site. Updated as needed.
+                </div>
+                <div>
+                    Indonesia
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind config for classic feel
+        function initTailwind() {
+            // No heavy config needed — keeping it minimal
+        }
+        
+        // Smooth scroll
+        function setupSmoothScroll() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        }
+        
+        window.onload = function() {
+            initTailwind();
+            setupSmoothScroll();
+        };
+    </script>
+</body>
+</html>
         .crypto-grid {
             background-image: 
                 linear-gradient(rgba(99, 102, 241, 0.06) 1px, transparent 1px),
